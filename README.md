@@ -82,7 +82,3 @@ Cette section sera enrichie avec les résultats réellement obtenus :
 Après le MVP francilien, GeoMobility360 AI a vocation à évoluer vers une plateforme SaaS B2B/B2G d'intelligence territoriale, extensible aux métropoles européennes et internationales.
 
 **Vision :** Building Intelligent, Sustainable and Connected Cities Through Data & Artificial Intelligence.
-
-Après le MVP francilien, GeoMobility360 AI a vocation à évoluer vers une plateforme SaaS B2B/B2G d'intelligence territoriale, extensible aux métropoles européennes et internationales.
-
-**Vision :** Building Intelligent, Sustainable and Connected Cities Through Data & Artificial Intelligence.
