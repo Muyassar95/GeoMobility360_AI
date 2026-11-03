@@ -5,18 +5,18 @@
 Contrôler les données communales et calculer les superficies.
 
 ## Données
-Source : 
-Format : GEOJSON
-Projection initiale : 4326
-Projection finale : 2154 (Lambert-93)
+- Source : GeoAPI
+- Format : GEOJSON
+- Projection initiale : 4326
+- Projection finale : 2154 (Lambert-93)
 
 ## Résultats
-Nombre de communes : 1266
-Doublons : 0
-Valeurs manquantes : 0
-Géométries invalides : 0
-Superficie minimale : 0,09 km²
-Superficie maximale : 172,28 km²
+- Nombre de communes : 1266
+- Doublons : 0
+- Valeurs manquantes : 0
+- Géométries invalides : 0
+- Superficie minimale : 0,09 km²
+- Superficie maximale : 172,28 km²
 
 ## Travaux réalisés
 - Contrôle qualité : x
