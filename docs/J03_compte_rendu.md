@@ -52,7 +52,3 @@ Intégrer les populations municipales INSEE aux contours communaux d'Île-de-Fra
 - Calcul d'indicateurs territoriaux.
 - Contrôles statistiques.
 - Cartographie choroplèthe interactive.
-
-## 8. Prochaine étape — J04
-
-Analyse statistique des populations et des densités : distributions, valeurs extrêmes, comparaisons territoriales et visualisations avancées.
