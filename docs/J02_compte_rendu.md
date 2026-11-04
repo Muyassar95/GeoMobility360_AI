@@ -1,16 +1,20 @@
 
 # J02 — Qualité et analyse géographique
 
-## Objectif
+**Projet :** GeoMobility360 AI  
+**Date :** 3 novembre 2026  
+**Thématique :** Territorial Intelligence & Geospatial Data Engineering
+
+## 1. Objectif
 Contrôler les données communales et calculer les superficies.
 
-## Données
+## 2. Données
 - Source : GeoAPI
 - Format : GEOJSON
 - Projection initiale : 4326
 - Projection finale : 2154 (Lambert-93)
 
-## Résultats
+## 3. Résultats
 - Nombre de communes : 1266
 - Doublons : 0
 - Valeurs manquantes : 0
@@ -18,13 +22,13 @@ Contrôler les données communales et calculer les superficies.
 - Superficie minimale : 0,09 km²
 - Superficie maximale : 172,28 km²
 
-## Travaux réalisés
+## 4. Travaux réalisés
 - Contrôle qualité : x
 - Reprojection : x
 - Calcul des superficies : x
 - Cartographie : x
 
-## Difficultés rencontrées
+## 5. Difficultés rencontrées
 - Distinction entre les valeurs manquantes (isna()) et les géométries invalides (is_valid).
 
 - Compréhension des opérations booléennes (~, &) pour contrôler la qualité géographique.
@@ -33,7 +37,7 @@ Contrôler les données communales et calculer les superficies.
 
 - Compréhension de la reprojection géographique et du calcul des superficies en km².
 
-## Interprétation
+## 6. Interprétation
 - Les superficies communales présentent des différences importantes entre les territoires franciliens.
 
 - La reprojection en Lambert-93 (EPSG:2154) permet d'effectuer des calculs de superficies en unités métriques.
@@ -42,7 +46,7 @@ Contrôler les données communales et calculer les superficies.
 
 - La superficie seule ne permet pas d'évaluer la densité démographique, l'accessibilité ou le potentiel économique d'un territoire.
 
-## Compétences acquises
+## 7. Compétences acquises
 - Manipulation de GeoDataFrames avec GeoPandas.
 
 - Contrôle des doublons, des valeurs manquantes et des géométries invalides.
