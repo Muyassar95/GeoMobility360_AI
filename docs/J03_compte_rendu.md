@@ -35,14 +35,14 @@ Intégrer les populations municipales INSEE aux contours communaux d'Île-de-Fra
 
 ## 5. Difficultés rencontrées
 
-J'ai rencontré des difficultés lors de l'agrégation des populations des 20 arrondissements de Paris. Les données INSEE étant présentées à l'échelle des arrondissements, j'ai dû regrouper leurs populations sous le code communal 75056 pour assurer leur compatibilité avec les données géographiques.
-Cette difficulté m'a permis de mieux comprendre l'importance de l'harmonisation des échelles géographiques avant une jointure.
+- J'ai rencontré des difficultés lors de l'agrégation des populations des 20 arrondissements de Paris. Les données INSEE étant présentées à l'échelle des arrondissements, j'ai dû regrouper leurs populations sous le code communal 75056 pour assurer leur compatibilité avec les données géographiques.
+- Cette difficulté m'a permis de mieux comprendre l'importance de l'harmonisation des échelles géographiques avant une jointure.
 
 ## 6. Interprétation
 
-L'analyse géographique suggère que les communes présentant les densités de population les plus élevées se concentrent notamment à Paris et en petite couronne.
-Cette répartition peut s'expliquer par une urbanisation plus dense et une concentration importante des logements et des habitants.
-Toutefois, la densité dépend à la fois du nombre d'habitants et de la superficie communale. Une commune très peuplée n'est donc pas nécessairement la plus dense.
+- L'analyse géographique suggère que les communes présentant les densités de population les plus élevées se concentrent notamment à Paris et en petite couronne.
+- Cette répartition peut s'expliquer par une urbanisation plus dense et une concentration importante des logements et des habitants.
+- Toutefois, la densité dépend à la fois du nombre d'habitants et de la superficie communale. Une commune très peuplée n'est donc pas nécessairement la plus dense.
 
 ## 7. Compétences développées
 
