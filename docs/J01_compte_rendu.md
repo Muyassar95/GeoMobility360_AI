@@ -1,6 +1,7 @@
 # J01 — Acquisition et exploration géographique
 
 **Projet :** GeoMobility360 AI
+**Date :** 2 novembre 2026
 **Thématique :** GeoData Engineering
 
 ## Objectif
