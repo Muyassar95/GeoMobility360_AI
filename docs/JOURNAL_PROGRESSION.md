@@ -13,3 +13,21 @@
 **Compétences :** SQL, diagnostic technique, cartographie interactive.
 
 **Prochaine séance :** approfondir les analyses territoriales.
+
+## J06 — Exploration statistique et analyse territoriale
+
+**Objectif :** explorer les disparités démographiques entre les communes franciliennes.
+
+**Travaux réalisés :**
+- À compléter : statistiques descriptives et quantiles.
+- À compléter : détection des communes atypiques.
+- À compléter : corrélations et visualisations Plotly.
+- À compléter : analyses SQL et cartes territoriales.
+
+**Résultat principal :** à renseigner avec une observation chiffrée.
+
+**Difficulté rencontrée / solution :** à compléter.
+
+**Compétences travaillées :** Pandas, statistiques descriptives, SQL, GeoPandas et Plotly.
+
+**Prochaine étape :** J7 — Consolidation et validation des indicateurs territoriaux.
