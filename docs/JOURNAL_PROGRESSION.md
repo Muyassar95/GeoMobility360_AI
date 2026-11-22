@@ -60,7 +60,7 @@
 - `data/processed/J07_controles_qualite.csv`
 - `reports/figures/J07_typologie_demographique.html`
 
---
+---
 
 ## J08 — Activité, emploi et chômage par âge et sexe
 
