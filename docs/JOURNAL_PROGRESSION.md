@@ -10,7 +10,7 @@
 - Premières requêtes SQL avec `SELECT`, `WHERE`, `GROUP BY`.
 - Débogage de l'affichage des cartes Plotly : WebGL réactivé dans Edge.
 
-**À vérifier :** complétude des indicateurs, jointures et sauvegardes finales.
+**Tâches validées :** complétude des indicateurs, jointures et sauvegardes finales.
 
 **Compétences :** SQL, diagnostic technique, cartographie interactive.
 
@@ -22,14 +22,10 @@
 **Objectif :** explorer les disparités démographiques entre les communes franciliennes.
 
 **Travaux réalisés :**
-- À compléter : statistiques descriptives et quantiles.
-- À compléter : détection des communes atypiques.
-- À compléter : corrélations et visualisations Plotly.
-- À compléter : analyses SQL et cartes territoriales.
-
-**Résultat principal :** à renseigner avec une observation chiffrée.
-
-**Difficulté rencontrée / solution :** à compléter.
+- Statistiques descriptives et quantiles.
+- Détection des communes atypiques.
+- Corrélations et visualisations Plotly.
+- Analyses SQL et cartes territoriales.
 
 **Compétences travaillées :** Pandas, statistiques descriptives, SQL, GeoPandas et Plotly.
 
@@ -49,12 +45,12 @@
 - Préparation d'une carte interactive Plotly et des exports Parquet/GeoPackage.
 
 ### Résultats vérifiés
-- Nombre de communes contrôlées : à compléter.
-- Nombre d'anomalies détectées : à compléter.
-- Résultats des jointures POP1/POP2 : à compléter.
-- Typologie et carte interactive : à confirmer après exécution.
+- Nombre de communes contrôlées : 1266.
+- Nombre d'anomalies détectées : 0.
+- Résultats des jointures POP1/POP2 : Validé.
+- Typologie et carte interactive : Oui.
 
-### À valider
+### Tâches validées
 - Cohérence finale des données et des dénominateurs.
 - Compatibilité des millésimes géographiques.
 - Sauvegarde et relecture des fichiers produits.
@@ -63,3 +59,47 @@
 - `notebooks/J07_validation_territoriale.ipynb`
 - `data/processed/J07_controles_qualite.csv`
 - `reports/figures/J07_typologie_demographique.html`
+
+--
+
+## J08 — Activité, emploi et chômage par âge et sexe
+
+**Projet :** GeoMobility360 AI  
+**Date :** 22 novembre 2026  
+**Thématique :** Socioeconomic Intelligence, Data Engineering & SQL Analytics
+
+### Travaux
+
+- Exploration des données INSEE ACT1 — Recensement 2023 sur l'activité, l'emploi et le chômage.
+- Extraction des observations communales par sexe, âge détaillé et statut d'activité avec DuckDB/SQL.
+- Préparation des effectifs d'actifs, de chômeurs et de personnes en emploi.
+- Identification de doublons lors de la transformation avec `pivot()`.
+- Diagnostic des clés statistiques et des modalités géographiques pour éviter les doubles comptes.
+- Préparation des regroupements d'âge : 15–24, 25–39, 40–54 et 55–64 ans.
+- Préparation des indicateurs communaux et de leur intégration géographique.
+
+### Résultats vérifiés
+
+- Lecture et interrogation des données ACT1 avec DuckDB : réalisées.
+- Extraction des observations par âge, sexe et statut : réalisée.
+- Doublons empêchant le pivot : identifiés.
+- Nombre de communes exploitables : 1266.
+- Cohérence des effectifs actifs = emplois + chômeurs : Oui.
+- Cartes interactives des taux d'activité, d'emploi et de chômage : Oui.
+
+### Tâches validées
+
+- Résolution des doublons ACT1 sans perte ni double comptage.
+- Complétude des âges et des catégories d'activité.
+- Calcul et validation des trois taux avec les dénominateurs appropriés.
+- Harmonisation des codes INSEE, notamment Paris.
+- Jointure ACT1/POP1 et intégration dans la base géodémographique.
+- Sauvegarde et relecture des fichiers Parquet et GeoPackage.
+
+### Preuves
+
+- `notebooks/J08_activite_emploi_chomage.ipynb`
+- `sql/J08_extraction_ACT1.sql`
+- `data/processed/J08_emploi_tranches_age_2023.parquet`
+- `data/processed/J08_indicateurs_emploi_communaux_2023.parquet`
+- `reports/figures/J08_taux_chomage_15_64.html`
