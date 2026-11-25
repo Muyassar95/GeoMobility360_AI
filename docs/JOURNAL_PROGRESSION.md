@@ -103,3 +103,46 @@
 - `data/processed/J08_emploi_tranches_age_2023.parquet`
 - `data/processed/J08_indicateurs_emploi_communaux_2023.parquet`
 - `reports/figures/J08_taux_chomage_15_64.html`
+
+---
+
+## J09 — Analyse territoriale de l'activité, de l'emploi et du chômage
+
+**Projet :** GeoMobility360 AI  
+**Date :** 23 novembre 2026  
+**Thématique :** Socioeconomic Intelligence, SQL & GeoAnalytics
+
+### Travaux
+
+- Préparation des données ACT1 par commune, sexe et âge.
+- Segmentation en trois classes : 15–24, 25–54 et 55–64 ans.
+- Construction de neuf indicateurs : taux d'activité, d'emploi et de chômage par classe d'âge.
+- Comparaison des disparités femmes-hommes.
+- Analyses territoriales avec DuckDB et SQL.
+- Statistiques descriptives et visualisations interactives Plotly.
+- Préparation des cartes choroplèthes par âge et indicateur.
+
+### Résultats vérifiés
+
+- Communes étudiées : 1266
+- Contrôles des doublons et des effectifs : Oui
+- Couverture des trois groupes d'âge : Oui
+- Écarts femmes-hommes : Oui
+- Principales disparités territoriales : Oui
+- Cartes produites : Oui
+
+### Tâches validées
+
+- Cohérence ACT1/POP1 et traitement de Paris.
+- Comparaison des taux avec les indicateurs INSEE publiés.
+- Prudence concernant les faibles effectifs.
+- Sauvegarde et relecture des fichiers produits.
+
+### Preuves
+
+- `notebooks/J09_analyse_emploi_age_sexe.ipynb`
+- `data/processed/J09_emploi_sexe_age_2023.parquet`
+- `data/processed/J09_neuf_indicateurs_emploi_2023.parquet`
+- `reports/figures/J09_comparaison_taux_age.html`
+- `reports/figures/J09_carte_chomage_jeunes.html`
+
